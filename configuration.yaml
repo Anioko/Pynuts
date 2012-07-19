@@ -1,0 +1,24 @@
+name: Pynuts
+description: Documents for Nuts
+license: BSD
+public: true
+url: http://www.pynuts.org/
+
+project (git):
+  url: git://github.com/Kozea/Pynuts.git
+  path: pynuts
+
+vcs (git):
+  url: git://github.com/Kozea/Pynuts.git
+  path: /var/db/git/pynuts.git
+
+code browser (github):
+  project name: Kozea/Pynuts
+
+bug tracker (redmine):
+  base url: http://redmine.kozea.fr/
+  project name: pynuts
+
+continuous integration (jenkins):
+  base url: http://jenkins.kozea.org/
+  project name: pynuts
