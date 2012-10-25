@@ -5,7 +5,7 @@ public: true
 url: http://www.pynuts.org/
 
 redirects:
-    /: /docs/
+    /: http://packages.python.org/Pynuts/
 
 project (git):
   url: git://github.com/Kozea/Pynuts.git
