@@ -4,7 +4,14 @@ license: BSD
 public: true
 url: http://www.pynuts.org/
 
+redirects:
+    /: /docs/
+
 project (git):
+  url: git://github.com/Kozea/Pynuts.git
+  path: pynuts
+
+sphinx (git):
   url: git://github.com/Kozea/Pynuts.git
   path: pynuts
 
