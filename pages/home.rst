@@ -2,7 +2,7 @@
  Pynuts
 ========
 
-Pynuts is a Flask extension which will simplify your code by creating some generic content.
+Pynuts is a BSD licensed Flask extension which will simplify your code by creating some generic content.
 
 It allows you to:
 
@@ -11,7 +11,7 @@ It allows you to:
 * handle HTML and PDF documents with git, you can store anything you want for any instance you created. Of course, you can use all the features that git provides and do what you want with your documents, that’s why Pynuts is a powerful tool for developpers.
 * drastically reduce the amount of code to write.
 
-Let's compare the code you would have to write, without and with Pynuts, to implement a basic view inserting a model instance into database:
+Let's compare the code you have to write, without and with Pynuts, to implement a basic view inserting a model instance into database:
 
 
 Without Pynuts
