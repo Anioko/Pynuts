@@ -17,8 +17,7 @@ menu:
       link: /community/
 
 redirects:
-    /docs/: http://packages.python.org/Pynuts
-    /docs/install/: http://packages.python.org/Pynuts/Installation.html
+    /install/: /docs/install
 
 
 project (git):
