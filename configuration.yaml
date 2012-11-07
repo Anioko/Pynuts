@@ -4,6 +4,22 @@ license: BSD
 public: true
 url: http://www.pynuts.org/
 
+menu:
+  - Overview:
+      link: /
+  - News:
+      link: /news/
+  - Documentation:
+      link: /docs/
+  - Install:
+      link: /docs/install/
+  - Community:
+      link: /community/
+
+redirects:
+    /docs/: http://packages.python.org/Pynuts
+    /docs/install/: http://packages.python.org/Pynuts/Installation.html
+
 
 project (git):
   url: git://github.com/Kozea/Pynuts.git
