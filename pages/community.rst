@@ -1,7 +1,7 @@
 Community
 =========
 
-Are you using Kozea? Do you want to make changes or see changes made to
+Are you using Pynuts? Do you want to make changes or see changes made to
 it? Are you just interested by the project in general? Come talk to us!
 
 
@@ -15,5 +15,5 @@ Issue/bug tracker
 -----------------
 
 Specific bug reports or feature requests should go `on GitHub
-<https://github.com/Kozea/Kozea/issues>`_.
+<https://github.com/Kozea/Pynuts/issues>`_.
 Please include in full any detail such as an error message or tracebacks.

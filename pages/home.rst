@@ -1,11 +1,22 @@
-Pynuts is a BSD licensed Flask extension which will simplify your code by creating some generic content.
-
-It allows you to:
+Pynuts is a Flask extension which will simplify your code by creating some generic content, allowing you to:
 
 * implement some basic CRUD (Create, Read, Update and Delete) view functions for administration in a few lines.
 * secure your application by easily manage permissions using the request context.
-* handle HTML and PDF documents with git, you can store anything you want for any instance you created. Of course, you can use all the features that git provides and do what you want with your documents, that’s why Pynuts is a powerful tool for developpers.
+* generate HTML and PDF documents from any instance you created.
+* manage different versions of these document with an embedded git repository.
 * drastically reduce the amount of code to write.
+
+
+About Pynuts
+------------
+
+* Free software: BSD licensed
+* Python 2.6-2.7
+* Source code and issue tracker: on `Github <https://github.com/Kozea/Pynuts>`_
+* `Documentation </docs/>`_
+* `Install </docs/install>`_
+* Get `in touch <mailto:contact@kozea.fr>`_ with the Pynuts team
+
 
 Example
 -------
@@ -17,7 +28,18 @@ Without Pynuts
 
 .. code-block:: python
     
-    print "Hello world"
+    app.route('/employee/add', methods=('GET', 'POST'))
+    def add_employee():
+        form = EmployeeForm()
+        if form.validate_on_submit():
+            employee = Employee()
+            form.populate_obj(employee)
+            db.session.add(employee)
+            db.session.commit()
+            return redirect(url_for(
+                'read_employee', employee_id=employee.employee_id))
+        else:
+            return render_template(url_for('add_employee'))
 
 
 With Pynuts
@@ -29,11 +51,3 @@ With Pynuts
     @app.route('/employee/add', methods=('GET', 'POST'))
     def add_employee():
         return EmployeeView().create('create_employee.html.jinja2')
-
-
-* Free software: BSD licensed
-* Python 2.6-2.7
-* Source code and issue tracker: on `Github <https://github.com/Kozea/Pynuts>`_
-* `Documentation <http://packages.python.org/Pynuts/>`_
-* `Install <http://packages.python.org/Pynuts/Installation.html>`_
-* Get `in touch <mailto:contact@kozea.fr>`_
