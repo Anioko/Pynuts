@@ -1,7 +1,3 @@
-========
- Pynuts
-========
-
 Pynuts is a BSD licensed Flask extension which will simplify your code by creating some generic content.
 
 It allows you to:
@@ -11,38 +7,28 @@ It allows you to:
 * handle HTML and PDF documents with git, you can store anything you want for any instance you created. Of course, you can use all the features that git provides and do what you want with your documents, that’s why Pynuts is a powerful tool for developpers.
 * drastically reduce the amount of code to write.
 
+Example
+-------
 Let's compare the code you have to write, without and with Pynuts, to implement a basic view inserting a model instance into database:
 
 
 Without Pynuts
---------------
+""""""""""""""
 
-.. sourcecode:: python
-
-   @app.route('/employee/add', methods=('GET', 'POST'))
-   def add_employee():
-       form = EmployeeForm()
-       if form.validate_on_submit():
-           employee = Employee()
-
-           form.populate_obj(employee)
-           db.session.add(employee)
-           db.session.commit(
-           return redirect(url_for(
-               'read_employee', employee_id=employee.employee_id))
-       else:
-           return render_template(url_for('add_employee'))
+.. code-block:: python
+    
+    print "Hello world"
 
 
 With Pynuts
------------
+"""""""""""
 
-.. sourcecode:: python
+.. code-block:: python
 
-  @EmployeeView.create_page
-  @app.route('/employee/add', methods=('GET', 'POST'))
-  def add_employee():
-      return EmployeeView().create('create_employee.html.jinja2')
+    @EmployeeView.create_page
+    @app.route('/employee/add', methods=('GET', 'POST'))
+    def add_employee():
+        return EmployeeView().create('create_employee.html.jinja2')
 
 
 * Free software: BSD licensed
