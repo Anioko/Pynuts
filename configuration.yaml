@@ -4,8 +4,6 @@ license: BSD
 public: true
 url: http://www.pynuts.org/
 
-redirects:
-    /: http://packages.python.org/Pynuts/
 
 project (git):
   url: git://github.com/Kozea/Pynuts.git
