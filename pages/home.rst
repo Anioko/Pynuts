@@ -4,12 +4,9 @@ It allows you to:
 
 - implement and configure `CRUD <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>`_ view functions in a few lines, using your database schema.
 - secure your application by easily managing user permissions using the request context.
-- generate HTML and PDF documents containing data from any model instance you created.
+- generate HTML, ReST and PDF documents containing data from any model instance you created.
 - manage different versions of these document with an embedded git repository.
 - drastically reduce the amount of code to write and development time by focusing on your application logic and deferring the boring parts to Pynuts.
-
-
-
 
 
 About Pynuts
