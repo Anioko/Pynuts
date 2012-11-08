@@ -14,7 +14,7 @@ About Pynuts
 * Python 2.6-2.7
 * Source code and issue tracker: on `Github <https://github.com/Kozea/Pynuts>`_
 * `Documentation </docs/>`_
-* `Install </docs/install>`_
+* `Install </docs/Installation/>`_
 * Get `in touch <mailto:contact@kozea.fr>`_ with the Pynuts team
 
 

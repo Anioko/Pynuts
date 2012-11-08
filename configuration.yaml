@@ -12,12 +12,12 @@ menu:
   - Documentation:
       link: /docs/
   - Install:
-      link: /docs/install/
+      link: /docs/Installation/
   - Community:
       link: /community/
 
 redirects:
-    /install/: /docs/install
+    /install/: /docs/Installation/
 
 
 project (git):
