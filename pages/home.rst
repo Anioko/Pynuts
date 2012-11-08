@@ -24,8 +24,8 @@ About Pynuts
 * Get `in touch <mailto:contact@kozea.fr>`_ with the Pynuts team
 
 
-A create view fuction, powered by Pynuts
-----------------------------------------
+A create view function, powered by Pynuts
+-----------------------------------------
 Let's compare the code you have to write, without and with Pynuts, to implement a basic view inserting a model instance into database:
 
 
