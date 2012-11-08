@@ -14,6 +14,6 @@ Chat with us at `##kozea <irc://chat.freenode.net/%23%23kozea>`_ on
 Issue/bug tracker
 -----------------
 
-Specific bug reports or feature requests should go `on GitHub
-<https://github.com/Kozea/Pynuts/issues>`_.
+Specific bug reports or feature requests should go `on Redmine
+<http://redmine.kozea.fr/projects/pynuts>`_.
 Please include in full any detail such as an error message or tracebacks.

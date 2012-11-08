@@ -12,7 +12,8 @@ About Pynuts
 
 * Free software: BSD licensed
 * Python 2.6-2.7
-* Source code and issue tracker: on `Github <https://github.com/Kozea/Pynuts>`_
+* Source code on `Github <https://github.com/Kozea/Pynuts>`_
+* `Issue tracker <http://redmine.kozea.fr/projects/pynuts>`_
 * `Documentation </docs/>`_
 * `Install </docs/Installation/>`_
 * Get `in touch <mailto:contact@kozea.fr>`_ with the Pynuts team
