@@ -1,7 +1,7 @@
 Pynuts 0.2 is out!
 ------------------
 
-The first stable Pynuts version is finally released! 
+The first stable Pynuts version is finally released! Get it via `PyPI <http://pypi.python.org/pypi/Pynuts/>`_.
 
 Have a look at our tutorials (`quickstart <http://pynuts.org/docs/Quickstart/>`_, `simple <http://pynuts.org/docs/Tutorial/>`_,
 `advanced <http://pynuts.org/docs/Advanced%20tutorial/>`_) to get your Flask app running with Pynuts.
